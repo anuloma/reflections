@@ -1,21 +1,16 @@
-How did viewing a diff between two versions of a file help you see the bug that
-was introduced?
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
     I assumed the bug was not in the previous version, so any differences between the previous and new version would be candidates for introducing the bug. After looking at each difference, I noticed the string "spacr" in one of them. As I knew "space" was one of the operative words (variable or some other aspect), I thought that "spacr" would be incorrect.
 
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
     Easy access enables efficiency in finding that which is pertinent quickly/easily. If I could access the entire history of a file easily, I would be able to track down diffs, just as I did with the previous exercise, probably fairly quickly. This could make me a more efficient programmer.
 
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
-docs does?
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
     One pro is that you are able to decide when to commit, so that looking at diffs later may be efficient--but only if you commit in a logical, efficient sequence. One con is that you can forget to commit, and then when you do so, it is difficult to track changes effectively--or if the computer crashes, you lose the latest changes.
 
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
     Software is often built with multiple, inter-related files. Changes in one file affect other files. By applying a commit to all related files concurrently, Git--which caters to software file version control--enables users to see when changes impact the related files. Systems like Google Docs might cater more to one-off documents, which might not have associations with other files, so saving multiple files in one commit may not be necessary.
 
@@ -23,11 +18,10 @@ How can you use the commands git log and git diff to view the history of files?
 
     The "git log" command enables you to get a list or log of commits made to a file. Each commit is a manifestation of the file, incrementally added as a commit when the programmer deemed necessary to identify one or more changes. The "git diff" command enables you to compare the differences between commits. This enables you to see changes on an incremental basis relatively easily.
 
-How might using version control make you more confident to make changes that
-could break something?
+How might using version control make you more confident to make changes that could break something?
 
     If this question is asking how version control would enable me to run experiments, testing code to see if it worked or not: Version control enables me to apply changes to code and document what the changes are, enabling iterative changes that could include experimental code, to see if the code worked or to see what the code would do. If I wanted to confirm that code did in fact break something within the overall application, I could apply version control in introducing the change(s) incrementally, run the code and see which increment broke things.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    I'm not sure right now!
+    I will try to use Git for checking out how it works, including its features for comparing commits.
