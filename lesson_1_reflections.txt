@@ -17,7 +17,7 @@ docs does?
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Software is often built with multiple, inter-related files. Changes in one file affect other files. By applying a commit to all related files concurrently, Git--which caters to software file version control--enables users to see when changes impact the related files. Systems like Google Docs might cater more to one-off documents, which do not have associations to other files, so saving multiple files in one commit may not be necessary.
+    Software is often built with multiple, inter-related files. Changes in one file affect other files. By applying a commit to all related files concurrently, Git--which caters to software file version control--enables users to see when changes impact the related files. Systems like Google Docs might cater more to one-off documents, which might not have associations with other files, so saving multiple files in one commit may not be necessary.
 
 How can you use the commands git log and git diff to view the history of files?
 
